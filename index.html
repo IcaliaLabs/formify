@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Formify by IcaliaLabs</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Formify</h1>
+        <h2>A JS plugin to save forms to LocalStorage like a boss</h2>
+        <a href="https://github.com/IcaliaLabs/formify" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p><em>Formify is a super simple solution to serialize forms and save them to local storage.</em></p>
+
+<h2>
+<a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of contents</h2>
+
+<ul>
+<li><a href="#quick-start">Quick start</a></li>
+<li><a href="#bug-tracker-&amp;-feature-request">Bug tracker &amp; feature request</a></li>
+<li><a href="#running-formify-locally">Running formify locally</a></li>
+<li><a href="#contributing">Contributing</a></li>
+<li><a href="#copyright-and-license">License</a></li>
+</ul>
+
+<h2>
+<a id="quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Quick start</h2>
+
+<p>Using Formify is extremely easy, you can download using one of the following options:</p>
+
+<ul>
+<li><a href="https://raw.githubusercontent.com/IcaliaLabs/formify/master/dist/formify.js">Download</a></li>
+<li>Clone the repot: <code>git clone git@github.com:IcaliaLabs/formify.git</code>
+</li>
+</ul>
+
+<p><strong>You will need jQuery to run the plugin</strong></p>
+
+<p>Once you have downloaded the plugin, just drop it on your project and invoke it:</p>
+
+<div class="highlight highlight-text-html-basic"><pre><span class="pl-s1"> &lt;<span class="pl-ent">script</span> <span class="pl-e">type</span>=<span class="pl-s"><span class="pl-pds">"</span>text/javascript<span class="pl-pds">"</span></span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">"</span>utf-8<span class="pl-pds">"</span></span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>//code.jquery.com/jquery-2.2.0.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span>
+<span class="pl-s1"> &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>/javascripts/formify.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></pre></div>
+
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> form <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">Formify.Form</span>(<span class="pl-s"><span class="pl-pds">"</span>idOfTheFormToSave<span class="pl-pds">"</span></span>)</pre></div>
+
+<h2>
+<a id="bug-tracker--feature-request" class="anchor" href="#bug-tracker--feature-request" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bug tracker &amp; feature request</h2>
+
+<p>Have a bug or a feature request? <a href="https://github.com/IcaliaLabs/formify/issues">Please open a new issue</a>. Before opening any issue, please search for existing issues.</p>
+
+<h2>
+<a id="running-formify-locally" class="anchor" href="#running-formify-locally" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running formify locally</h2>
+
+<ol>
+<li>You need to install <a href="https://middlemanapp.com/">Middleman</a>
+</li>
+<li>Install the dependencies using <code>bundle install</code>
+</li>
+<li>You can lift the server with <code>middleman server</code>
+</li>
+<li>Open <a href="http://localhost:4567/">http://localhost:4567/</a> and you are good to go.</li>
+</ol>
+
+<p>Middleman is a great way to work with static pages.</p>
+
+<h2>
+<a id="contributing" class="anchor" href="#contributing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Please submit all pull requests against a separate branch.</p>
+
+<h2>
+<a id="copyright-and-license" class="anchor" href="#copyright-and-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyright and license</h2>
+
+<p>Code and documentation copyright 2013-2016 Icalia Labs. Code released under <a href="LICENSE">the MIT license</a>.</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/IcaliaLabs/formify/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/IcaliaLabs/formify/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/IcaliaLabs/formify"></a> is maintained by <a href="https://github.com/IcaliaLabs">IcaliaLabs</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
