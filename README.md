@@ -14,7 +14,7 @@
 
 Using Formify is extremely easy, you can download using one of the following options:
 
-* [Download](http://icalialabs.github.io/formify/)
+* [Download](dist/formify.js)
 * Clone the repot: `git clone git@github.com:IcaliaLabs/formify.git`
 
 **You will need jQuery to run the plugin**
