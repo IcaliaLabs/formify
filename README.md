@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/IcaliaLabs/formify/badges/gpa.svg)](https://codeclimate.com/github/IcaliaLabs/formify)
+[![Test Coverage](https://codeclimate.com/github/IcaliaLabs/formify/badges/coverage.svg)](https://codeclimate.com/github/IcaliaLabs/formify/coverage)
+[![Issue Count](https://codeclimate.com/github/IcaliaLabs/formify/badges/issue_count.svg)](https://codeclimate.com/github/IcaliaLabs/formify)
+
 # [Formify](https://github.com/IcaliaLabs/formify)
 
 *Formify is a super simple solution to serialize forms and save them to local storage.*
