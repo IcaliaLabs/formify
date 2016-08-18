@@ -1,0 +1,16 @@
+version: "2"
+
+volumes:
+  gems:
+    driver: local
+services:
+  app:
+    image: ruby:2.3.1
+    command: bash
+    entrypoint: /usr/src/app/development-entrypoint.sh
+    volumes:
+      - .:/usr/src/app
+      - gems:/usr/local/bundle
+    working_dir: /usr/src/app
+    tty: true
+    stdin_open: true

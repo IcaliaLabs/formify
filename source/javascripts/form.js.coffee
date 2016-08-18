@@ -81,9 +81,3 @@ window.Formify.Form = class Form
       fields.push(new Input(this))
 
     JSON.stringify(fields)
-
-  # Bind the submit event to clear the form when submited
-  #
-  _bindSubmitEvent: =>
-    @$element.on 'submit', (event) =>
-      @clearLocalStorage()
